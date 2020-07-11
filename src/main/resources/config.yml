@@ -1,0 +1,13 @@
+# ListenerNotifier Config
+
+# Called when the GameMode of the player is changed.
+PlayerGameModeChangeEvent:
+  enabled: true
+  # Node is notify.on.[what you put below]
+  # e.g. notify.on.gamemode
+  node: gamemode
+  # Message to send, &x color codes supported. RGB codes not supported.
+  # Supported tags:
+  # {name} - Name of player
+  # {gamemode} - The new game-mode
+  message: "&bListenerNotifier &7> &a{name} &bhas switched to &a{gamemode}&b!"
