@@ -1,0 +1,6 @@
+name: ListenerNotifier
+version: ${project.version}
+main: pw.chew.listenernotifier.ListenerNotifier
+api-version: 1.15
+authors: [Chew]
+description: Notifies for listens
